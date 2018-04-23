@@ -1,0 +1,30 @@
+Abstract Classes:
+
+1) An abstract class is a class that contains atleast one abstract method. The abstract method is function declaration without
+anybody and it has the only name of the method and its parameters.
+
+2) There can be any number of methods in the class and we have to declare the class as abstract only when there is an abstract
+method
+
+Notes on Abstract Classes:
+
+1) Objects cannot be created for the abstract classes.
+2) If a class has only method as abstract, then that class must be an abstract class.
+3) The child class which extends an abstract class must define all the methods of the abstract class.
+4) If the abstract method is defined as protected in the parent class, the function implementation must be defined as either
+protected or public, but not private.
+5) The signatures of the methods must match, optional parameter given in the child class will not be accepted and error will be
+thrown.
+6) Abstract classes that declare all their methods as abstract are not interfaces with different names. One can implement multiple
+interfaces, but not extend multiple classes(or abstract classes).
+
+Difference between Abstract Class and Interface:
+
+1) It can have constants, members, method stubs(methout without a body), methods.(AC)
+   It can have constants and methods stubs.(Int)
+2) Methods and members can have public or protected visibility.
+   Methods of interface should only be public not any other visibility.
+3) The concept of multiple inheritances not supported.
+   An interface can extend or a class can implement multiple other interface.
+4) Child class must implement all the abstract method of parent class when extend keyword is used.
+   No need of impelementing methods from parent interface when interface is extending another interface.
