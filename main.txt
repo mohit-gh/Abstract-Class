@@ -27,4 +27,4 @@ Difference between Abstract Class and Interface:
 3) The concept of multiple inheritances not supported.
    An interface can extend or a class can implement multiple other interface.
 4) Child class must implement all the abstract method of parent class when extend keyword is used.
-   No need of impelementing methods from parent interface when interface is extending another interface.
+   No need of implementing methods from parent interface when interface is extending another interface.
